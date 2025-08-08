@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Makaka Bernard | Profile</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Makaka Bernard</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Makaka Bernard</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span><span></span><span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="makaka bernard.jpeg" alt="Makaka Bernard" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Makaka Bernard</h1>
+      <p class="section__text__p2">Hospitality Professional & Culinary Expert</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('Makaka Bernard.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="about.jpeg" alt="Profile" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>5+ years<br>Hospitality & Culinary Arts</p>
+          </div>
+          <div class="details-container">
+            <h3>Education</h3>
+            <ul>
+              <li>Diploma in Food Production – ZITHS</li>
+              <li>Certificate in Digital Marketing – Open University</li>
+              <li>O-Level Certificate – Chinika Secondary School</li>
+            </ul>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I’m a results-driven culinary professional with hands-on experience across cruise lines, international airports, and high-volume restaurants. I take pride in delivering high standards, seamless operations, and excellent service — from kitchen management to customer care.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Key Skills & Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Key Skills & Abilities</h2>
+          <ul>
+            <li>Exceptionally talented in delivering high quality service to customers</li>
+            <li>Articulate communicator and team collaborator</li>
+            <li>Strong in stock control and waste minimization</li>
+            <li>Known for outstanding performance and feedback</li>
+            <li>Adaptable and calm under pressure</li>
+            <li>Proven administrative and communication strengths</li>
+          </ul>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Professional Experience</h2>
+          <ul>
+            <li><strong>Demi Chef De Partie</strong>, Princess Cruises (2022–Present)
+              <ul>
+                <li>Prepare, cook, and serve food with attention to quality</li>
+                <li>Ensure high standards in food presentation and hygiene</li>
+                <li>Monitor stock and place orders for own section</li>
+                <li>Maintain communication with guests</li>
+              </ul>
+            </li>
+            <li><strong>1st Commis Chef</strong>, Qatar Airways – Hamad Int'l Airport (2021–2022)
+              <ul>
+                <li>Prepared mise en place and cooked meals per orders</li>
+                <li>Handled buffet replenishment and guest needs</li>
+                <li>Received and verified stock deliveries</li>
+              </ul>
+            </li>
+            <li><strong>Lab Supervisor</strong>, Gigibonta Ice Cream, Lusaka (Jan–Sep 2021)
+              <ul>
+                <li>Oversaw ice cream and bakery operations</li>
+                <li>Managed stock and dispatch logistics</li>
+                <li>Delegated duties and resolved customer concerns</li>
+              </ul>
+            </li>
+            <li><strong>Assistant Store Manager</strong>, Panarottis Pizza & Pasta, Lusaka (2018–2020)
+              <ul>
+                <li>Supervised staff scheduling and hygiene standards</li>
+                <li>Boosted customer service and satisfaction</li>
+                <li>Handled weekly stocktaking and conflict resolution</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email" class="icon contact-icon" />
+        <p><a href="mailto:bernard2makaka@gmail.com">bernard2makaka@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/phone.png" alt="Phone" class="icon contact-icon" />
+        <p><a href="tel:+260973162561">+260973162561</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>© 2025 Makaka Bernard. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+</body>
+</html>
